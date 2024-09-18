@@ -1,0 +1,27 @@
+nav{
+    background-color: white;
+
+}
+.navbar{
+    position: fixed !important;
+    right: 0;
+    left: 0;
+}
+nav a{
+    color: #A82D49 !important;
+    font-weight: bold !important;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.number{
+    background-color: #A82D49 !important;
+    border:#A82D49 solid 2px !important;
+    color: white !important;
+    padding: 5px 10px!important;
+}
+.number:hover{  
+    transition: .3s ease-in-out ;
+    background-color: white !important;
+    color: #A82D49 !important;
+}

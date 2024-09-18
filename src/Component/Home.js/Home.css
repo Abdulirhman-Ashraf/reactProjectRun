@@ -1,0 +1,276 @@
+.members {
+    text-align: center;
+    background-color: #A82D49;
+    font-weight: bold;
+    color: white;
+    padding: 40px ;
+}
+
+.members .row div {
+    margin: 15px 0;
+}
+
+.members h2 {
+    font-size: 45px;
+}
+
+/* end member css */
+/*start pride and about2 css and story css*/
+.pride,
+.about2,
+.watch {
+    height: auto;
+    padding-top: 120px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.pride img,
+.about2 img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.pride .row h2,
+.about2 .row h2 {
+    color: #43121D;
+    font-weight: 500;
+    margin: 70px 0 20px;
+    width: 75%;
+    line-height: 45px;
+}
+
+.pride .row p,
+.about2 .row p {
+    color: #2c2c5b;
+    margin-bottom: 30px;
+    width: 75%;
+    line-height: 30px;
+
+}
+
+.pride .row button,
+.about2 .row button,
+.Explore button,
+.fresh button ,
+.Subscribe button{
+    width: 140px;
+    height: 45px;
+    margin-bottom: 25px;
+    background-color: #A82D49;
+    border: 2px #A82D49 solid;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.215);
+}
+
+.pride .row button:hover,
+.about2 .row button:hover,
+.Explore button:hover,
+.fresh button:hover,
+.Subscribe button:hover {
+    background-color: white;
+    color: #A82D49;
+    transition: .3s ease-in-out;
+}
+
+/* start about2 */
+.about2 .row ul {
+    padding: 0;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+/* start watch section */
+.watch {
+    background: url("./../../Images/watch.webp") no-repeat center;
+    background-size: cover;
+    margin: 50px auto;
+    padding-bottom: 80px;
+    text-align: center;
+    overflow: hidden;
+    height: auto;
+}
+
+.watch h2 {
+    color: #A82D49;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 33px;
+}
+
+.watch p {
+    margin: 20px auto;
+
+}
+
+.watch a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.watch a:hover {
+    color: #A82D49;
+
+}
+
+/* start Explore */
+.Explore {
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 25px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.Explore .row:first-of-type {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Explore h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.Explore p {
+    margin-bottom: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.Explore .box {
+    height: auto;
+    max-width: 100%;
+    overflow: auto;
+    margin: 30px;
+}
+
+.Explore img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Explore h5,
+.Explore span {
+    margin: 5px;
+}
+
+.Explore h6 {
+    color: #A82D49;
+    font-size: 30px;
+}
+
+.slider {
+    background-color: #A82D49;
+    overflow: hidden;
+    padding: 25px 0px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 80px 0px;
+    color: white;
+}
+
+.carousel {
+    background-color: white;
+    margin: 70px auto;
+    padding: 40px;
+}
+
+.slider img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+.carousel-indicators {
+    bottom: -100px !important;
+    
+   
+}
+.carousel-indicators button{
+    bottom: -50px !important;
+    border-radius: 50% !important;
+    width: 15px !important; 
+    height: 15px !important;
+            background-color: white !important;
+}
+.carousel-control-next-icon{
+display: none !important;
+}
+.carousel-control-prev-icon{
+display: none !important;
+}
+/* start question */
+.question{
+    margin-top: 50px;
+    padding: 25px 20px;
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+    
+}
+.question h2{
+ text-align: center;
+    margin-bottom: 80px;
+    font-size: 38px;
+}
+.question h6{
+    color: #707678;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+/* start fresh section*/
+.fresh{
+    background: url('./../../Images/download.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+.fresh h3{
+    margin-left: 50px !important;
+}
+.fresh button:hover{
+    background-color: transparent;
+}
+/* start Subscribe section*/
+.Subscribe{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.Subscribe h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.Subscribe p{
+    margin-bottom: 25px;
+
+}
+.Subscribe input{
+width:70%;
+height: 50px;
+margin-right: 30px ;
+padding-left:20px ;
+text-transform: capitalize;
+font-weight: bold;
+margin-bottom:20px ;
+}
+.Subscribe button{
+    height: 50px;
+    max-width: 200px;
+}

@@ -1,0 +1,57 @@
+header{
+    background: url("../../Images/home3.png") center no-repeat ;
+    background-size: cover;
+    max-width: 100%;
+    height: calc(100vh + 117px) ;
+    overflow: hidden;
+    text-align: left;
+    padding: 25px 0;
+    margin-top: 0;
+}
+header .row{
+    margin:170px 0 ;
+}
+header h2{
+color: #43121D;
+font-size: 50px;
+line-height: 60px;
+font-weight:600 !important;
+font-family: "Tajawal", sans-serif !important;
+letter-spacing:-1px;
+width: 70% ;
+}
+header p{
+    color: #735757;
+    font-family: "Tajawal", sans-serif !important;
+    margin :15px 0;
+    width: 70%;
+}
+header a{
+    width: 140px ;
+    height: 45px;
+    margin:20px 18px 0px 0px ;
+    background-color:#A82D49 !important;
+    border: 2px #A82D49 solid !important;
+    color: white !important;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.215) ;
+}
+
+header a:hover{
+    background-color:white !important;
+    color:#A82D49 !important;
+    transition: .3s ease-in-out;
+}
+header a:last-of-type{
+    background-color: white !important;
+    color:black !important;
+    border: 2px rgb(198, 198, 198) solid !important;
+
+}
+header a:last-of-type:hover{
+    color:#A82D49 !important;
+    border: 2px #A82D49 solid !important;
+    transition: .3s ease-in-out;
+
+}
